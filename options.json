@@ -1,0 +1,14 @@
+{
+    "options": {
+        "debug": true
+    },
+    "connections": {
+        "cluster": "aws",
+        "reconnect": true
+    },
+    "identity": {
+        "username": "botname",
+        "password": "oauth:__you-need-your-oauth_here"
+    },
+    "channels": ["channeltojoin"]
+}
